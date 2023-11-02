@@ -771,7 +771,7 @@ section.reg-sub-section {
       /*
      * Set a base background for 1x environments.
      */
-      background: #111 url("../images/dev3.png");
+
       background-size: auto auto;
       background-blend-mode: difference;
       /*
