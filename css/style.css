@@ -2152,7 +2152,7 @@ section.clients-section3 {
     section.clients-section3 .client-box ul.client-list li {
       list-style: none;
       float: left;
-      width: 25%; }
+      width: 33%; }
       section.clients-section .client-box ul.client-list li a,
       section.clients-section2 .client-box ul.client-list li a,
       section.clients-section3 .client-box ul.client-list li a {
@@ -2352,6 +2352,7 @@ footer {
         background: #fff; }
   footer p.copyright-line {
     text-align: center;
+    font-size: 13px;
     padding: 30px 0;
     color: #fff;
     border-top: 1px solid #f2be1a;
