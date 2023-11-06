@@ -2353,6 +2353,7 @@ footer {
   footer p.copyright-line {
     text-align: center;
     font-size: 13px;
+    font-style: italic;
     padding: 30px 0;
     color: #fff;
     border-top: 1px solid #f2be1a;
