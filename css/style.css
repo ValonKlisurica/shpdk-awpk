@@ -1056,6 +1056,17 @@ section.gallery-section {
       height: auto;
       border: 1px solid #f2be1a; }
 
+      section.gallery-section-1 {
+        overflow: hidden; }
+        section.gallery-section-1 ul.gallery-list li {
+          display: inline-block;
+         
+          width: 46%; }
+          section.gallery-section-1 ul.gallery-list li img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #f2be1a; }     
+
 section.subscribe-section {
   padding: 80px 0;
   text-align: center;
@@ -2146,7 +2157,7 @@ section.clients-section3 {
   section.clients-section .client-box ul.client-list,
   section.clients-section2 .client-box ul.client-list,
   section.clients-section3 .client-box ul.client-list {
-    overflow: hidden; }
+    overflow: hidden; padding-top: 15px; }
     section.clients-section .client-box ul.client-list li,
     section.clients-section2 .client-box ul.client-list li,
     section.clients-section3 .client-box ul.client-list li {
@@ -2179,6 +2190,7 @@ section.clients-section3 {
         section.clients-section3 .client-box ul.client-list li a img {
           max-width: 100%;
           max-height: 100%;
+          padding-bottom: 20px;
           transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;
           -webkit-transition: all 0.2s ease-in-out;
@@ -2621,6 +2633,8 @@ footer.third-style {
     margin-top: 30px; }
   section.gallery-section ul.gallery-list li {
     width: 33.3333%; }
+    section.gallery-section-1 ul.gallery-list li {
+      width: 100%; }
   .sidebar {
     padding-left: 0;
     padding-top: 50px; }
